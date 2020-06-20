@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1c7684fcec44d1c94a968837dee64dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a1c7684fcec44d1c94a968837dee64dd" ></div>
+        
+</body>
+<script>    
+    
+            var map_a1c7684fcec44d1c94a968837dee64dd = L.map(
+                "map_a1c7684fcec44d1c94a968837dee64dd",
+                {
+                    center: [19.06519837030827, 72.88644319427551],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44f8c421bb8a475dae46fd7bba60b33c = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_69be2622653d466780b31a92bd0f6236 = L.polyline(
+                [[19.0590868, 72.8901831], [19.0591299, 72.8902408]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_a86bd71f0e89426989b5939164c91c03 = L.polyline(
+                [[19.0591299, 72.8902408], [19.059204, 72.8901496]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_272f3d91236c42baa33563c872051364 = L.polyline(
+                [[19.059204, 72.8901496], [19.0595277, 72.8905459]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_ee391092f1f4495d9e701ac0da7f6163 = L.polyline(
+                [[19.0595277, 72.8905459], [19.0596522, 72.8907069], [19.0612464, 72.8929502]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_195d76103a6145afa2cbe266c7bddd71 = L.polyline(
+                [[19.0612464, 72.8929502], [19.0614654, 72.8927511], [19.0616405, 72.8925828], [19.0617131, 72.8924784], [19.0617522, 72.8924035], [19.0617801, 72.892303], [19.0618677, 72.8921414], [19.0620508, 72.8918147]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_3e320a4b2b534dfab37d726db2240468 = L.polyline(
+                [[19.0620508, 72.8918147], [19.0614671, 72.8911361]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_f552b6df2c16419b82e1911fd5e5b5a7 = L.polyline(
+                [[19.0614671, 72.8911361], [19.0611484, 72.890769], [19.06103, 72.8906419]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_1df69fb24dc744e29fe967984a8c07ad = L.polyline(
+                [[19.06103, 72.8906419], [19.0606229, 72.890119], [19.0604415, 72.889866]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_da02c29d4db048c099ad5d31d43857b4 = L.polyline(
+                [[19.0604415, 72.889866], [19.0603796, 72.8897798], [19.0600125, 72.8892679], [19.0597095, 72.8887051]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_d57c0e41caf0469480a9e53b6a726f54 = L.polyline(
+                [[19.0597095, 72.8887051], [19.0596487, 72.8885921], [19.0593772, 72.8881127]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_7626faf62cc54b6599a3c7b1a39a4f70 = L.polyline(
+                [[19.0593772, 72.8881127], [19.0589898, 72.8874288], [19.0589095, 72.8873239]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_6d46e3de601648c9bac0cd065b3d1969 = L.polyline(
+                [[19.0589095, 72.8873239], [19.0585527, 72.8868579], [19.0585249, 72.8868215], [19.0580741, 72.8863952]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_1a2efb0b0c054495b5e8334276467dd0 = L.polyline(
+                [[19.0580741, 72.8863952], [19.0587625, 72.8859343]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_b0882500a7984be1b2000053be3898b5 = L.polyline(
+                [[19.0587625, 72.8859343], [19.0592226, 72.8855956], [19.0592428, 72.8855807], [19.0599369, 72.8850696]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_f57b4413dbcd469c823e08a1bc924986 = L.polyline(
+                [[19.0599369, 72.8850696], [19.0607299, 72.8844858]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_008015efbaf04ea4a88ce0c95745875d = L.polyline(
+                [[19.0607299, 72.8844858], [19.0609601, 72.8843002]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_b951d97726c44d51bc0a1e04d30590fe = L.polyline(
+                [[19.0609601, 72.8843002], [19.0610782, 72.8842034], [19.0615416, 72.8838235], [19.0619851, 72.88346]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_932b36b71a5b455288a6051a0c6a6dc8 = L.polyline(
+                [[19.0619851, 72.88346], [19.0623332, 72.8839101]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_59b530decc714fc3adfaf61b60219a9b = L.polyline(
+                [[19.0623332, 72.8839101], [19.0624608, 72.8840675], [19.0625216, 72.8841388]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_b911815d40904d2487768d98f6c105d3 = L.polyline(
+                [[19.0625216, 72.8841388], [19.0628649, 72.8845412]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_b6df56913df94865830d6cf8b2427df1 = L.polyline(
+                [[19.0628649, 72.8845412], [19.063083, 72.8848136], [19.0631982, 72.8849574], [19.0632436, 72.8850141]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_6be84efa779249dd9de8cf3e7d1c9ed4 = L.polyline(
+                [[19.0632436, 72.8850141], [19.0633117, 72.8851035]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_efa397188b9944a394c33a583fb70a50 = L.polyline(
+                [[19.0633117, 72.8851035], [19.0636747, 72.8855803]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_eea4388a7773420ab71bf00b579b2ded = L.polyline(
+                [[19.0636747, 72.8855803], [19.0637662, 72.8857005], [19.063989, 72.8859197], [19.0643569, 72.8862817], [19.0650634, 72.8867722]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_818eab48501f45eb9e947bffdcc3456a = L.polyline(
+                [[19.0650634, 72.8867722], [19.065529, 72.887004], [19.0657977, 72.8871644], [19.0660062, 72.8873199], [19.0662447, 72.8875303], [19.0670608, 72.8882844], [19.0671832, 72.8883997]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_d1350a9dec014afaa5a4a58fc34368cc = L.polyline(
+                [[19.0671832, 72.8883997], [19.0673447, 72.8884676], [19.067428, 72.8884766], [19.067537, 72.8884699], [19.067624, 72.888447]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_3ac8ea66ca4d4224be46df931cd29d37 = L.polyline(
+                [[19.067624, 72.888447], [19.0696062, 72.8868113], [19.0699612, 72.8866101]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_3cb8c3827a1b4d769ff9b0f0b86f335a = L.polyline(
+                [[19.0699612, 72.8866101], [19.0711327, 72.8856157], [19.0715902, 72.8852161], [19.0717786, 72.8850604], [19.0719371, 72.8848982], [19.0725934, 72.8841569], [19.0728779, 72.883864], [19.0732064, 72.8834079], [19.0733586, 72.8831127], [19.0734442, 72.8828517], [19.0734981, 72.8825011], [19.0734729, 72.8821416]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_978389eae141494aba62afdf2cb21245 = L.polyline(
+                [[19.0734729, 72.8821416], [19.0734887, 72.8818503], [19.0735159, 72.881612], [19.0735674, 72.8814043], [19.0736334, 72.8811906]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_4f71999d5e9044aea5c87b412e9fb8e4 = L.polyline(
+                [[19.0736334, 72.8811906], [19.0737909, 72.8808597], [19.0739071, 72.8806902]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_2641c09bd8d7431eb2efe091b6044bff = L.polyline(
+                [[19.0739071, 72.8806902], [19.0739058, 72.880522], [19.073883, 72.8804187], [19.0738108, 72.8803048], [19.0737686, 72.8802672]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var poly_line_ea871f149c374738bb3ecbd1a637118c = L.polyline(
+                [[19.0737686, 72.8802672], [19.0734687, 72.880315], [19.0730465, 72.8802756], [19.0715889, 72.8797454], [19.0711884, 72.8795997]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            map_a1c7684fcec44d1c94a968837dee64dd.fitBounds(
+                [[19.0580741, 72.8795997], [19.0739071, 72.8929502]],
+                {}
+            );
+        
+    
+            var marker_2edf4b98602b47fabe4fafbe1e92920e = L.marker(
+                [19.0590868, 72.8901831],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_6ae2e9dfd8404594b5d066acc7fab8e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2edf4b98602b47fabe4fafbe1e92920e.setIcon(icon_6ae2e9dfd8404594b5d066acc7fab8e5);
+        
+    
+        var popup_5588d173193246a691d27a2521b0dac0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c0be21d6c3c4a159240d338237d46dd = $(`<div id="html_2c0be21d6c3c4a159240d338237d46dd" style="width: 100.0%; height: 100.0%;">('suburb', 'L Ward')</div>`)[0];
+            popup_5588d173193246a691d27a2521b0dac0.setContent(html_2c0be21d6c3c4a159240d338237d46dd);
+        
+
+        marker_2edf4b98602b47fabe4fafbe1e92920e.bindPopup(popup_5588d173193246a691d27a2521b0dac0)
+        ;
+
+        
+    
+    
+            var marker_79dbc2f56a384997a68722787391d3d3 = L.marker(
+                [19.0591299, 72.8902408],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_b7f75696e4c94d09a02bb013903ec626 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_79dbc2f56a384997a68722787391d3d3.setIcon(icon_b7f75696e4c94d09a02bb013903ec626);
+        
+    
+        var popup_30f545594cae43a29e2c6ae96d72d08e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2907ce475b954fbaa170a6e038da935b = $(`<div id="html_2907ce475b954fbaa170a6e038da935b" style="width: 100.0%; height: 100.0%;">('suburb', 'L Ward')</div>`)[0];
+            popup_30f545594cae43a29e2c6ae96d72d08e.setContent(html_2907ce475b954fbaa170a6e038da935b);
+        
+
+        marker_79dbc2f56a384997a68722787391d3d3.bindPopup(popup_30f545594cae43a29e2c6ae96d72d08e)
+        ;
+
+        
+    
+    
+            var marker_348a20ee0ff7486699e7e355ec431071 = L.marker(
+                [19.059204, 72.8901496],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_1f863bdb26e24338bfdc3fc16a9e825a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_348a20ee0ff7486699e7e355ec431071.setIcon(icon_1f863bdb26e24338bfdc3fc16a9e825a);
+        
+    
+        var popup_4ba437f3884c402599099305f7f4dd30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa278730e684937965e453d19182a4c = $(`<div id="html_7fa278730e684937965e453d19182a4c" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_4ba437f3884c402599099305f7f4dd30.setContent(html_7fa278730e684937965e453d19182a4c);
+        
+
+        marker_348a20ee0ff7486699e7e355ec431071.bindPopup(popup_4ba437f3884c402599099305f7f4dd30)
+        ;
+
+        
+    
+    
+            var marker_0d6daa349a774ec1a3f2515f9acc4359 = L.marker(
+                [19.0595277, 72.8905459],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_02df9e043dee4ad1971a13fe55c4fd8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0d6daa349a774ec1a3f2515f9acc4359.setIcon(icon_02df9e043dee4ad1971a13fe55c4fd8d);
+        
+    
+        var popup_371fb325af7b4e4faeb41f89a6135b56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52908c6ff2fb4dcbb78fe0a2f4464712 = $(`<div id="html_52908c6ff2fb4dcbb78fe0a2f4464712" style="width: 100.0%; height: 100.0%;">('building', 'Kanakia Zillion')</div>`)[0];
+            popup_371fb325af7b4e4faeb41f89a6135b56.setContent(html_52908c6ff2fb4dcbb78fe0a2f4464712);
+        
+
+        marker_0d6daa349a774ec1a3f2515f9acc4359.bindPopup(popup_371fb325af7b4e4faeb41f89a6135b56)
+        ;
+
+        
+    
+    
+            var marker_e06794d0382a4d2392c8b728ea42a37a = L.marker(
+                [19.0612464, 72.8929502],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_58f5e10bfb2743d9b84dc8f2ac7041c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e06794d0382a4d2392c8b728ea42a37a.setIcon(icon_58f5e10bfb2743d9b84dc8f2ac7041c0);
+        
+    
+        var popup_72da1cc2f62b48bd89e718971d8c2229 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8fd4976cb194a64a90f9f87f5919fc2 = $(`<div id="html_b8fd4976cb194a64a90f9f87f5919fc2" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_72da1cc2f62b48bd89e718971d8c2229.setContent(html_b8fd4976cb194a64a90f9f87f5919fc2);
+        
+
+        marker_e06794d0382a4d2392c8b728ea42a37a.bindPopup(popup_72da1cc2f62b48bd89e718971d8c2229)
+        ;
+
+        
+    
+    
+            var marker_20c76660fa1d44fd9a909d649504119c = L.marker(
+                [19.0620508, 72.8918147],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_2100754400f94352ab30247679da9999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_20c76660fa1d44fd9a909d649504119c.setIcon(icon_2100754400f94352ab30247679da9999);
+        
+    
+        var popup_8b014e8bc8994876b2cf99ffe6b36b98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51cb4fb7af0a41bea0304c24b7f78e7b = $(`<div id="html_51cb4fb7af0a41bea0304c24b7f78e7b" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_8b014e8bc8994876b2cf99ffe6b36b98.setContent(html_51cb4fb7af0a41bea0304c24b7f78e7b);
+        
+
+        marker_20c76660fa1d44fd9a909d649504119c.bindPopup(popup_8b014e8bc8994876b2cf99ffe6b36b98)
+        ;
+
+        
+    
+    
+            var marker_1a504631fe214e5eb341255d848d2db9 = L.marker(
+                [19.0614671, 72.8911361],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_09b3201f91c14eb7abd164eee43b65fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1a504631fe214e5eb341255d848d2db9.setIcon(icon_09b3201f91c14eb7abd164eee43b65fa);
+        
+    
+        var popup_e1279bd1c73546728b4f3133632ed9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a936e5b5317448088f0531889f6d9a04 = $(`<div id="html_a936e5b5317448088f0531889f6d9a04" style="width: 100.0%; height: 100.0%;">('amenity', 'Mugal')</div>`)[0];
+            popup_e1279bd1c73546728b4f3133632ed9b8.setContent(html_a936e5b5317448088f0531889f6d9a04);
+        
+
+        marker_1a504631fe214e5eb341255d848d2db9.bindPopup(popup_e1279bd1c73546728b4f3133632ed9b8)
+        ;
+
+        
+    
+    
+            var marker_e374a83b191949e390b94b5a507df2a0 = L.marker(
+                [19.06103, 72.8906419],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_728d8ac788234940bd6a44bb14f7c667 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e374a83b191949e390b94b5a507df2a0.setIcon(icon_728d8ac788234940bd6a44bb14f7c667);
+        
+    
+        var popup_dcb4beabeb2a4028b2ee3d38c58ae844 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de60d2f4cba7486d97babb23dc95355b = $(`<div id="html_de60d2f4cba7486d97babb23dc95355b" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_dcb4beabeb2a4028b2ee3d38c58ae844.setContent(html_de60d2f4cba7486d97babb23dc95355b);
+        
+
+        marker_e374a83b191949e390b94b5a507df2a0.bindPopup(popup_dcb4beabeb2a4028b2ee3d38c58ae844)
+        ;
+
+        
+    
+    
+            var marker_05fa874b094e406fadcfa4499c5bb53f = L.marker(
+                [19.0604415, 72.889866],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_b767df34909344fdbc51d7d6e86b0206 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_05fa874b094e406fadcfa4499c5bb53f.setIcon(icon_b767df34909344fdbc51d7d6e86b0206);
+        
+    
+        var popup_f326fe16d0b24d79ae02f44520525cef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b3ab8e66ae94fe8a1179cca4b3c1918 = $(`<div id="html_6b3ab8e66ae94fe8a1179cca4b3c1918" style="width: 100.0%; height: 100.0%;">('neighbourhood', 'Milan Nagar')</div>`)[0];
+            popup_f326fe16d0b24d79ae02f44520525cef.setContent(html_6b3ab8e66ae94fe8a1179cca4b3c1918);
+        
+
+        marker_05fa874b094e406fadcfa4499c5bb53f.bindPopup(popup_f326fe16d0b24d79ae02f44520525cef)
+        ;
+
+        
+    
+    
+            var marker_8c3566da843c4f39b3d7bd66b791b7de = L.marker(
+                [19.0597095, 72.8887051],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_b39738466f5748ea8e2cae0d2fbd49cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_8c3566da843c4f39b3d7bd66b791b7de.setIcon(icon_b39738466f5748ea8e2cae0d2fbd49cf);
+        
+    
+        var popup_008da621b15045b2af6ae1ccfe4f5d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1a4a20b94046e1842efab4e1cbc306 = $(`<div id="html_6e1a4a20b94046e1842efab4e1cbc306" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_008da621b15045b2af6ae1ccfe4f5d56.setContent(html_6e1a4a20b94046e1842efab4e1cbc306);
+        
+
+        marker_8c3566da843c4f39b3d7bd66b791b7de.bindPopup(popup_008da621b15045b2af6ae1ccfe4f5d56)
+        ;
+
+        
+    
+    
+            var marker_164403625a8e46f7839df00b267a51e3 = L.marker(
+                [19.0593772, 72.8881127],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_f7d757132183400bae42246e39de783e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_164403625a8e46f7839df00b267a51e3.setIcon(icon_f7d757132183400bae42246e39de783e);
+        
+    
+        var popup_219295743dd9407eaf9c92d1d919e9d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79899817bfac4ddca11f94341c41766a = $(`<div id="html_79899817bfac4ddca11f94341c41766a" style="width: 100.0%; height: 100.0%;">('road', 'Father Peter Periera Road')</div>`)[0];
+            popup_219295743dd9407eaf9c92d1d919e9d9.setContent(html_79899817bfac4ddca11f94341c41766a);
+        
+
+        marker_164403625a8e46f7839df00b267a51e3.bindPopup(popup_219295743dd9407eaf9c92d1d919e9d9)
+        ;
+
+        
+    
+    
+            var marker_fce2627c89c0450782372a758b697145 = L.marker(
+                [19.0589095, 72.8873239],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_8dbbf112636a427c908762e3b58cecc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fce2627c89c0450782372a758b697145.setIcon(icon_8dbbf112636a427c908762e3b58cecc2);
+        
+    
+        var popup_04b2435c9d344fb4ba98f62d51f06bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e537194fcbd24ac7a3f71dc55aaee953 = $(`<div id="html_e537194fcbd24ac7a3f71dc55aaee953" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_04b2435c9d344fb4ba98f62d51f06bc6.setContent(html_e537194fcbd24ac7a3f71dc55aaee953);
+        
+
+        marker_fce2627c89c0450782372a758b697145.bindPopup(popup_04b2435c9d344fb4ba98f62d51f06bc6)
+        ;
+
+        
+    
+    
+            var marker_5688804e90694c048ccc8f1cc309b64e = L.marker(
+                [19.0580741, 72.8863952],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_b02d1f63a05242c1bd1097dcbbb71eb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5688804e90694c048ccc8f1cc309b64e.setIcon(icon_b02d1f63a05242c1bd1097dcbbb71eb1);
+        
+    
+        var popup_8fa500b36e314269a62f3ef639e32433 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a96822f69c524100933e9c6d8d99e2f1 = $(`<div id="html_a96822f69c524100933e9c6d8d99e2f1" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_8fa500b36e314269a62f3ef639e32433.setContent(html_a96822f69c524100933e9c6d8d99e2f1);
+        
+
+        marker_5688804e90694c048ccc8f1cc309b64e.bindPopup(popup_8fa500b36e314269a62f3ef639e32433)
+        ;
+
+        
+    
+    
+            var marker_a11cefb51f034c93983eae7cd28c854a = L.marker(
+                [19.0587625, 72.8859343],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_0b89fb2635c44095a111236d338414ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a11cefb51f034c93983eae7cd28c854a.setIcon(icon_0b89fb2635c44095a111236d338414ac);
+        
+    
+        var popup_43c33fc6f0e147c0b84254f4eea78660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ec2d88a10374e75b0ef1aa65b76b3e1 = $(`<div id="html_3ec2d88a10374e75b0ef1aa65b76b3e1" style="width: 100.0%; height: 100.0%;">('road', 'LBS Marg')</div>`)[0];
+            popup_43c33fc6f0e147c0b84254f4eea78660.setContent(html_3ec2d88a10374e75b0ef1aa65b76b3e1);
+        
+
+        marker_a11cefb51f034c93983eae7cd28c854a.bindPopup(popup_43c33fc6f0e147c0b84254f4eea78660)
+        ;
+
+        
+    
+    
+            var marker_055256a1ea864c038cd9c53bfd06f7f2 = L.marker(
+                [19.0599369, 72.8850696],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_750b3b0022304788b4f01fb49cd76f54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_055256a1ea864c038cd9c53bfd06f7f2.setIcon(icon_750b3b0022304788b4f01fb49cd76f54);
+        
+    
+        var popup_472a3858fde34ed28cb5a6c1ec1679c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e9b3369d1134797a5f28463429c0901 = $(`<div id="html_4e9b3369d1134797a5f28463429c0901" style="width: 100.0%; height: 100.0%;">('shop', 'Phoenix Market City Kurla')</div>`)[0];
+            popup_472a3858fde34ed28cb5a6c1ec1679c1.setContent(html_4e9b3369d1134797a5f28463429c0901);
+        
+
+        marker_055256a1ea864c038cd9c53bfd06f7f2.bindPopup(popup_472a3858fde34ed28cb5a6c1ec1679c1)
+        ;
+
+        
+    
+    
+            var marker_6785b100c9954902a7aff2d02e4dc4be = L.marker(
+                [19.0607299, 72.8844858],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_9a9d513e577b47928a102692be141cfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6785b100c9954902a7aff2d02e4dc4be.setIcon(icon_9a9d513e577b47928a102692be141cfc);
+        
+    
+        var popup_0748be4ac9f44db883bf2c610d2e54b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3d4807042434ee29dfa41319f57519e = $(`<div id="html_a3d4807042434ee29dfa41319f57519e" style="width: 100.0%; height: 100.0%;">('suburb', 'L Ward')</div>`)[0];
+            popup_0748be4ac9f44db883bf2c610d2e54b8.setContent(html_a3d4807042434ee29dfa41319f57519e);
+        
+
+        marker_6785b100c9954902a7aff2d02e4dc4be.bindPopup(popup_0748be4ac9f44db883bf2c610d2e54b8)
+        ;
+
+        
+    
+    
+            var marker_9a4b2b91f0064c9089c018aa658a3ba4 = L.marker(
+                [19.0609601, 72.8843002],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_9dea457afb12494fb2435e49c9f65ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9a4b2b91f0064c9089c018aa658a3ba4.setIcon(icon_9dea457afb12494fb2435e49c9f65ee6);
+        
+    
+        var popup_7949341f6955444f956782d4c8165fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_890cc84bad6f4c839aedceb19ca52929 = $(`<div id="html_890cc84bad6f4c839aedceb19ca52929" style="width: 100.0%; height: 100.0%;">('amenity', 'HP')</div>`)[0];
+            popup_7949341f6955444f956782d4c8165fc0.setContent(html_890cc84bad6f4c839aedceb19ca52929);
+        
+
+        marker_9a4b2b91f0064c9089c018aa658a3ba4.bindPopup(popup_7949341f6955444f956782d4c8165fc0)
+        ;
+
+        
+    
+    
+            var marker_7436f89ffe514805ac7c3fa09a44195f = L.marker(
+                [19.0619851, 72.88346],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_ba827e17241348dd82f2eafe93c2746c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7436f89ffe514805ac7c3fa09a44195f.setIcon(icon_ba827e17241348dd82f2eafe93c2746c);
+        
+    
+        var popup_65f45b0023484b32ac1b4848298ea46d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c6e9ff6367744fb8419e18881f6bd64 = $(`<div id="html_3c6e9ff6367744fb8419e18881f6bd64" style="width: 100.0%; height: 100.0%;">('building', 'High School(S.K.P)')</div>`)[0];
+            popup_65f45b0023484b32ac1b4848298ea46d.setContent(html_3c6e9ff6367744fb8419e18881f6bd64);
+        
+
+        marker_7436f89ffe514805ac7c3fa09a44195f.bindPopup(popup_65f45b0023484b32ac1b4848298ea46d)
+        ;
+
+        
+    
+    
+            var marker_1973a68816e34b9490ad44cb89c1d564 = L.marker(
+                [19.0623332, 72.8839101],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_2fa88d51b802400e82adc1b928ac3b13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1973a68816e34b9490ad44cb89c1d564.setIcon(icon_2fa88d51b802400e82adc1b928ac3b13);
+        
+    
+        var popup_3872024e37e84e3689d5510b4fcc5aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea8c6da0a5034d4dbd03492c323db345 = $(`<div id="html_ea8c6da0a5034d4dbd03492c323db345" style="width: 100.0%; height: 100.0%;">('amenity', 'HP')</div>`)[0];
+            popup_3872024e37e84e3689d5510b4fcc5aa4.setContent(html_ea8c6da0a5034d4dbd03492c323db345);
+        
+
+        marker_1973a68816e34b9490ad44cb89c1d564.bindPopup(popup_3872024e37e84e3689d5510b4fcc5aa4)
+        ;
+
+        
+    
+    
+            var marker_0466b2fafc9c4ceea258347a7c03a6ff = L.marker(
+                [19.0625216, 72.8841388],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_84e70bb083a64c42a171ec1189beecd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0466b2fafc9c4ceea258347a7c03a6ff.setIcon(icon_84e70bb083a64c42a171ec1189beecd3);
+        
+    
+        var popup_e477fffa2b4849fdbce9796033fe3a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5937450bb2546dbbb70098af233c352 = $(`<div id="html_a5937450bb2546dbbb70098af233c352" style="width: 100.0%; height: 100.0%;">('neighbourhood', 'Azad Nagar')</div>`)[0];
+            popup_e477fffa2b4849fdbce9796033fe3a79.setContent(html_a5937450bb2546dbbb70098af233c352);
+        
+
+        marker_0466b2fafc9c4ceea258347a7c03a6ff.bindPopup(popup_e477fffa2b4849fdbce9796033fe3a79)
+        ;
+
+        
+    
+    
+            var marker_85a42e817f2842118c7c8d66df0db1d1 = L.marker(
+                [19.0628649, 72.8845412],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_edbbcd26647145a8ab32b0e3bccb44f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_85a42e817f2842118c7c8d66df0db1d1.setIcon(icon_edbbcd26647145a8ab32b0e3bccb44f2);
+        
+    
+        var popup_53b3653ff1cd4de2ac5e29eb10919e45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea8837bb8cde4e4196ef457bdbdad11d = $(`<div id="html_ea8837bb8cde4e4196ef457bdbdad11d" style="width: 100.0%; height: 100.0%;">('road', 'Lokmanya Tilak Terminus Road')</div>`)[0];
+            popup_53b3653ff1cd4de2ac5e29eb10919e45.setContent(html_ea8837bb8cde4e4196ef457bdbdad11d);
+        
+
+        marker_85a42e817f2842118c7c8d66df0db1d1.bindPopup(popup_53b3653ff1cd4de2ac5e29eb10919e45)
+        ;
+
+        
+    
+    
+            var marker_54ed20bf0c1d436695ecf249d547308b = L.marker(
+                [19.0632436, 72.8850141],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_841bca0041a84be99f5caff6183571a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_54ed20bf0c1d436695ecf249d547308b.setIcon(icon_841bca0041a84be99f5caff6183571a6);
+        
+    
+        var popup_a986233132944555835d01e7e3a63e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a66648cd4b2241e7a59c82ff163fd8ca = $(`<div id="html_a66648cd4b2241e7a59c82ff163fd8ca" style="width: 100.0%; height: 100.0%;">('suburb', 'L Ward')</div>`)[0];
+            popup_a986233132944555835d01e7e3a63e6a.setContent(html_a66648cd4b2241e7a59c82ff163fd8ca);
+        
+
+        marker_54ed20bf0c1d436695ecf249d547308b.bindPopup(popup_a986233132944555835d01e7e3a63e6a)
+        ;
+
+        
+    
+    
+            var marker_956fed9feb2e49fd9fd726b509c3a0e7 = L.marker(
+                [19.0633117, 72.8851035],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_3a48d4cada06423ca9a6117dae2bb7fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_956fed9feb2e49fd9fd726b509c3a0e7.setIcon(icon_3a48d4cada06423ca9a6117dae2bb7fa);
+        
+    
+        var popup_9a14b763212b40cdbf09e199c354c8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e091d4aedf84128b859fc765e2e4bba = $(`<div id="html_9e091d4aedf84128b859fc765e2e4bba" style="width: 100.0%; height: 100.0%;">('road', 'Lokmanya Tilak Terminus Road')</div>`)[0];
+            popup_9a14b763212b40cdbf09e199c354c8bc.setContent(html_9e091d4aedf84128b859fc765e2e4bba);
+        
+
+        marker_956fed9feb2e49fd9fd726b509c3a0e7.bindPopup(popup_9a14b763212b40cdbf09e199c354c8bc)
+        ;
+
+        
+    
+    
+            var marker_ea7bee03e8704cdc9470c0990337a472 = L.marker(
+                [19.0636747, 72.8855803],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_3a7fca63afe64f69b946eb141013ce44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_ea7bee03e8704cdc9470c0990337a472.setIcon(icon_3a7fca63afe64f69b946eb141013ce44);
+        
+    
+        var popup_f02f079ed23c407291ded61ffe82be2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40367e9641a14361acf132e15f3f5b4e = $(`<div id="html_40367e9641a14361acf132e15f3f5b4e" style="width: 100.0%; height: 100.0%;">('road', 'Lokmanya Tilak Terminus Road')</div>`)[0];
+            popup_f02f079ed23c407291ded61ffe82be2f.setContent(html_40367e9641a14361acf132e15f3f5b4e);
+        
+
+        marker_ea7bee03e8704cdc9470c0990337a472.bindPopup(popup_f02f079ed23c407291ded61ffe82be2f)
+        ;
+
+        
+    
+    
+            var marker_f6fd944bb43947bc9e26b9f8198e80d0 = L.marker(
+                [19.0650634, 72.8867722],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_3161f64710d24585917620c654dd9460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f6fd944bb43947bc9e26b9f8198e80d0.setIcon(icon_3161f64710d24585917620c654dd9460);
+        
+    
+        var popup_3b85696ac26f4feda3fe47ee615a5a5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1866eb06e21f4041b3bddf153d46c055 = $(`<div id="html_1866eb06e21f4041b3bddf153d46c055" style="width: 100.0%; height: 100.0%;">('suburb', 'H/E Ward')</div>`)[0];
+            popup_3b85696ac26f4feda3fe47ee615a5a5b.setContent(html_1866eb06e21f4041b3bddf153d46c055);
+        
+
+        marker_f6fd944bb43947bc9e26b9f8198e80d0.bindPopup(popup_3b85696ac26f4feda3fe47ee615a5a5b)
+        ;
+
+        
+    
+    
+            var marker_f33c7fa5b352431ead70decccee539e1 = L.marker(
+                [19.0671832, 72.8883997],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_c7a3a3105b954d66917973a8f84a08fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_f33c7fa5b352431ead70decccee539e1.setIcon(icon_c7a3a3105b954d66917973a8f84a08fb);
+        
+    
+        var popup_275e2ba036ab4af2b5c5a03b98f8921a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_844160a9d4574d56a2c9dbd86d951b97 = $(`<div id="html_844160a9d4574d56a2c9dbd86d951b97" style="width: 100.0%; height: 100.0%;">('railway', 'Mumbai Station')</div>`)[0];
+            popup_275e2ba036ab4af2b5c5a03b98f8921a.setContent(html_844160a9d4574d56a2c9dbd86d951b97);
+        
+
+        marker_f33c7fa5b352431ead70decccee539e1.bindPopup(popup_275e2ba036ab4af2b5c5a03b98f8921a)
+        ;
+
+        
+    
+    
+            var marker_767987b3fda048a4b0f1126d142f8f1a = L.marker(
+                [19.067624, 72.888447],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_67dab6af2a0a429a87eb2e5126a60090 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_767987b3fda048a4b0f1126d142f8f1a.setIcon(icon_67dab6af2a0a429a87eb2e5126a60090);
+        
+    
+        var popup_9f8491f13b5748eaa3d80a4eeb733d01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ebc49e6938445128b8adb1e500c393c = $(`<div id="html_1ebc49e6938445128b8adb1e500c393c" style="width: 100.0%; height: 100.0%;">('road', 'Lokmanya Tilak Terminus Road')</div>`)[0];
+            popup_9f8491f13b5748eaa3d80a4eeb733d01.setContent(html_1ebc49e6938445128b8adb1e500c393c);
+        
+
+        marker_767987b3fda048a4b0f1126d142f8f1a.bindPopup(popup_9f8491f13b5748eaa3d80a4eeb733d01)
+        ;
+
+        
+    
+    
+            var marker_57ff51262aa145618c4f67de7bae87fb = L.marker(
+                [19.0699612, 72.8866101],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_0f28d7f8261442d1ad40891a81699968 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_57ff51262aa145618c4f67de7bae87fb.setIcon(icon_0f28d7f8261442d1ad40891a81699968);
+        
+    
+        var popup_89b55f4eaac94afa8bb8a82d27b43e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42bc6d9c89354a1694ed828fa72fcbd8 = $(`<div id="html_42bc6d9c89354a1694ed828fa72fcbd8" style="width: 100.0%; height: 100.0%;">('suburb', 'H/E Ward')</div>`)[0];
+            popup_89b55f4eaac94afa8bb8a82d27b43e40.setContent(html_42bc6d9c89354a1694ed828fa72fcbd8);
+        
+
+        marker_57ff51262aa145618c4f67de7bae87fb.bindPopup(popup_89b55f4eaac94afa8bb8a82d27b43e40)
+        ;
+
+        
+    
+    
+            var marker_3bc23056abfd45829b8fb1cb3f42991c = L.marker(
+                [19.0734729, 72.8821416],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_d84a2e59fc4a4e4db043dc452720e6db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3bc23056abfd45829b8fb1cb3f42991c.setIcon(icon_d84a2e59fc4a4e4db043dc452720e6db);
+        
+    
+        var popup_8e04b349e0494d34b44ea8eb3a28315a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a555f6271d34344afe54834fa53f938 = $(`<div id="html_6a555f6271d34344afe54834fa53f938" style="width: 100.0%; height: 100.0%;">('road', 'Bandra Kurla Complex Road')</div>`)[0];
+            popup_8e04b349e0494d34b44ea8eb3a28315a.setContent(html_6a555f6271d34344afe54834fa53f938);
+        
+
+        marker_3bc23056abfd45829b8fb1cb3f42991c.bindPopup(popup_8e04b349e0494d34b44ea8eb3a28315a)
+        ;
+
+        
+    
+    
+            var marker_7e8f3f088b974e8da74c1f6a6edd2ec4 = L.marker(
+                [19.0736334, 72.8811906],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_44e333f931e34631b95f0aec24c3830f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7e8f3f088b974e8da74c1f6a6edd2ec4.setIcon(icon_44e333f931e34631b95f0aec24c3830f);
+        
+    
+        var popup_7fdae9821b9f41c28a1968df9fda85ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_050d97f1261f49d6ad3f348f80b5c1d9 = $(`<div id="html_050d97f1261f49d6ad3f348f80b5c1d9" style="width: 100.0%; height: 100.0%;">('road', 'Lokmanya Tilak Terminus Road')</div>`)[0];
+            popup_7fdae9821b9f41c28a1968df9fda85ff.setContent(html_050d97f1261f49d6ad3f348f80b5c1d9);
+        
+
+        marker_7e8f3f088b974e8da74c1f6a6edd2ec4.bindPopup(popup_7fdae9821b9f41c28a1968df9fda85ff)
+        ;
+
+        
+    
+    
+            var marker_b6fe8c4f8ef546a0a2f2b445fe298635 = L.marker(
+                [19.0739071, 72.8806902],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_a204db54585b44be92958fad5dfde030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b6fe8c4f8ef546a0a2f2b445fe298635.setIcon(icon_a204db54585b44be92958fad5dfde030);
+        
+    
+        var popup_d961285b6f624c419e65bea4437673fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_923b6671d32945bb80739d2bb44f9a8e = $(`<div id="html_923b6671d32945bb80739d2bb44f9a8e" style="width: 100.0%; height: 100.0%;">('suburb', 'H/E Ward')</div>`)[0];
+            popup_d961285b6f624c419e65bea4437673fd.setContent(html_923b6671d32945bb80739d2bb44f9a8e);
+        
+
+        marker_b6fe8c4f8ef546a0a2f2b445fe298635.bindPopup(popup_d961285b6f624c419e65bea4437673fd)
+        ;
+
+        
+    
+    
+            var marker_483c7c603b4c470b9f4f457e1b205273 = L.marker(
+                [19.0737686, 72.8802672],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_4ef3dd5b9bc643bea193cee59fe5eb8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_483c7c603b4c470b9f4f457e1b205273.setIcon(icon_4ef3dd5b9bc643bea193cee59fe5eb8d);
+        
+    
+        var popup_6bdb5475b33e444fbeec24389026c8c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79437c870e8a4fa3a98ca084c2e9de78 = $(`<div id="html_79437c870e8a4fa3a98ca084c2e9de78" style="width: 100.0%; height: 100.0%;">('neighbourhood', 'Sai Baba Nagar')</div>`)[0];
+            popup_6bdb5475b33e444fbeec24389026c8c6.setContent(html_79437c870e8a4fa3a98ca084c2e9de78);
+        
+
+        marker_483c7c603b4c470b9f4f457e1b205273.bindPopup(popup_6bdb5475b33e444fbeec24389026c8c6)
+        ;
+
+        
+    
+    
+            var marker_2aaac7c214d746faa946169daa083634 = L.marker(
+                [19.0711884, 72.8795997],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_df6e03a3552b4f35bf5936751a5e56a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2aaac7c214d746faa946169daa083634.setIcon(icon_df6e03a3552b4f35bf5936751a5e56a8);
+        
+    
+        var popup_515ae017c3be43828b07edd30a11868a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a43c19c7255042ce96a14699a574ff14 = $(`<div id="html_a43c19c7255042ce96a14699a574ff14" style="width: 100.0%; height: 100.0%;">('neighbourhood', 'Naware Baug Jagruti Nagar')</div>`)[0];
+            popup_515ae017c3be43828b07edd30a11868a.setContent(html_a43c19c7255042ce96a14699a574ff14);
+        
+
+        marker_2aaac7c214d746faa946169daa083634.bindPopup(popup_515ae017c3be43828b07edd30a11868a)
+        ;
+
+        
+    
+    
+            var marker_ab707013173242d7adec33d568b8d990 = L.marker(
+                [19.0585059, 72.8904048],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_36537bf6b8cb42d58c9224b3b52ffe14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab707013173242d7adec33d568b8d990.setIcon(icon_36537bf6b8cb42d58c9224b3b52ffe14);
+        
+    
+        var popup_44d93058186d4c7c91c78893db4adfb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9197cfc7fb7f408fa586a9e4bdee6b91 = $(`<div id="html_9197cfc7fb7f408fa586a9e4bdee6b91" style="width: 100.0%; height: 100.0%;">('amenity', 'maa hospital')</div>`)[0];
+            popup_44d93058186d4c7c91c78893db4adfb8.setContent(html_9197cfc7fb7f408fa586a9e4bdee6b91);
+        
+
+        marker_ab707013173242d7adec33d568b8d990.bindPopup(popup_44d93058186d4c7c91c78893db4adfb8)
+        ;
+
+        
+    
+    
+            var marker_021b6e1be3ba458da9d2a9a58d52e530 = L.marker(
+                [19.0711034, 72.8793667],
+                {}
+            ).addTo(map_a1c7684fcec44d1c94a968837dee64dd);
+        
+    
+            var icon_778c7421d27342bd8fbb81fa53defa75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_021b6e1be3ba458da9d2a9a58d52e530.setIcon(icon_778c7421d27342bd8fbb81fa53defa75);
+        
+    
+        var popup_0e6048d157f34d7fba50f5972bbe15d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b359488067484b0a826da867e1592bf4 = $(`<div id="html_b359488067484b0a826da867e1592bf4" style="width: 100.0%; height: 100.0%;">('amenity', 'Hamidani Laser Vision Centre')</div>`)[0];
+            popup_0e6048d157f34d7fba50f5972bbe15d5.setContent(html_b359488067484b0a826da867e1592bf4);
+        
+
+        marker_021b6e1be3ba458da9d2a9a58d52e530.bindPopup(popup_0e6048d157f34d7fba50f5972bbe15d5)
+        ;
+
+        
+    
+</script>
